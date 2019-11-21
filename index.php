@@ -9,6 +9,4 @@ if($conn = login("ADENILSON", "123")){
 }else{
     echo "Ouve um erro tente novamente";
 }
-
-echo "teste";
 ?>
