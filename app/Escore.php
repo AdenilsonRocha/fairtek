@@ -1,16 +1,13 @@
 <?php 
-class Produtor{
+class Escore{
     private $id;
     private $nome;
-    private $email;
-    private $cpf_cnpj;
-    private $plano;
-    private $endereco;
-    private $telefone;
+    private $peso;
+    private $media;
     private $updated;
     private $created;
     private $excluido;
-    private $ativo;
+    private $tb_setor_tipo_id;
 
     /**
      * Get the value of id
@@ -53,101 +50,41 @@ class Produtor{
     }
 
     /**
-     * Get the value of email
+     * Get the value of peso
      */ 
-    public function getEmail()
+    public function getPeso()
     {
-        return $this->email;
+        return $this->peso;
     }
 
     /**
-     * Set the value of email
+     * Set the value of peso
      *
      * @return  self
      */ 
-    public function setEmail($email)
+    public function setPeso($peso)
     {
-        $this->email = $email;
+        $this->peso = $peso;
 
         return $this;
     }
 
     /**
-     * Get the value of cpf_cnpj
+     * Get the value of media
      */ 
-    public function getCpf_cnpj()
+    public function getMedia()
     {
-        return $this->cpf_cnpj;
+        return $this->media;
     }
 
     /**
-     * Set the value of cpf_cnpj
+     * Set the value of media
      *
      * @return  self
      */ 
-    public function setCpf_cnpj($cpf_cnpj)
+    public function setMedia($media)
     {
-        $this->cpf_cnpj = $cpf_cnpj;
-
-        return $this;
-    }
-
-    /**
-     * Get the value of plano
-     */ 
-    public function getPlano()
-    {
-        return $this->plano;
-    }
-
-    /**
-     * Set the value of plano
-     *
-     * @return  self
-     */ 
-    public function setPlano($plano)
-    {
-        $this->plano = $plano;
-
-        return $this;
-    }
-
-    /**
-     * Get the value of endereco
-     */ 
-    public function getEndereco()
-    {
-        return $this->endereco;
-    }
-
-    /**
-     * Set the value of endereco
-     *
-     * @return  self
-     */ 
-    public function setEndereco($endereco)
-    {
-        $this->endereco = $endereco;
-
-        return $this;
-    }
-
-    /**
-     * Get the value of telefone
-     */ 
-    public function getTelefone()
-    {
-        return $this->telefone;
-    }
-
-    /**
-     * Set the value of telefone
-     *
-     * @return  self
-     */ 
-    public function setTelefone($telefone)
-    {
-        $this->telefone = $telefone;
+        $this->media = $media;
 
         return $this;
     }
@@ -213,21 +150,21 @@ class Produtor{
     }
 
     /**
-     * Get the value of ativo
+     * Get the value of tb_setor_tipo_id
      */ 
-    public function getAtivo()
+    public function getTb_setor_tipo_id()
     {
-        return $this->ativo;
+        return $this->tb_setor_tipo_id;
     }
 
     /**
-     * Set the value of ativo
+     * Set the value of tb_setor_tipo_id
      *
      * @return  self
      */ 
-    public function setAtivo($ativo)
+    public function setTb_setor_tipo_id($tb_setor_tipo_id)
     {
-        $this->ativo = $ativo;
+        $this->tb_setor_tipo_id = $tb_setor_tipo_id;
 
         return $this;
     }
