@@ -4,7 +4,7 @@ class Veterinairio{
     private $tb_granja_id;
     private $nome;
     private $email;
-    private $telefone;
+    private $tel;
     private $updated;
     private $created;
     private $excluido;
@@ -72,21 +72,21 @@ class Veterinairio{
     }
 
     /**
-     * Get the value of telefone
+     * Get the value of tel
      */ 
-    public function getTelefone()
+    public function getTel()
     {
-        return $this->telefone;
+        return $this->tel;
     }
 
     /**
-     * Set the value of telefone
+     * Set the value of tel
      *
      * @return  self
      */ 
-    public function setTelefone($telefone)
+    public function setTel($tel)
     {
-        $this->telefone = $telefone;
+        $this->tel = $tel;
 
         return $this;
     }
